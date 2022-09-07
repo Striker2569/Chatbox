@@ -1,4 +1,32 @@
 {"intents": [
+    {"tag": "interview",
+     "patterns": ["admission interview", "entrance test", "appearing test", "entrance exam"],
+     "responses": ["yes, admission interviews often are important.", "yes", "yes, they play a factor."]
+    },
+    {"tag": "streams",
+     "patterns": ["streams offered", "courses offered", "science stream","commerce stream","humanities ","arts stream"],
+     "responses": ["we offer all science/commerce/humanities programs", "yes, these streams are offered", "the college offers these streams"]
+    },
+    {"tag": "size",
+     "patterns": ["acerage class size", "number of students", "students in class", "strength of a class"],
+     "responses": ["The average class size is 70 students ", "70 students in each class", "70 students per class"]
+    },
+    {"tag": "courseselection",
+     "patterns": ["course selection for first semester", "freshers selecting courses", "freshers first semester classes"],
+     "responses": ["course selection will be one month prior", "One month before classes commence", "freshers choose courses one month before"]
+    },
+    {"tag": "priority",
+    "patterns": ["priority in course registration", "who gets to choose courses first", "students choose courses first", "courses priority"],
+    "responses": ["it will be based on entrance exam scores", "yes, priority is decided by entrance exam scores"]
+    },
+    {"tag": "classes",
+    "patterns": ["number of classes in one semester", "students take classes in one semester", "how many classes per sem", "students opt for classes", "classes in a semester"],
+    "responses": ["based on number of credits opted.", "Yes, it is based on number of credits in that semester", "Yes, number of credits"]
+    },
+    {"tag": "practical",
+    "patterns": ["lab or theory", "practical lab experience", "hands on experience", "theorotical or lab"],
+    "responses": ["Yes, students can both theorotical and lab experience", "Yes, practical hands on experience is provided"]
+    },
     {"tag": "greeting",
      "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
      "responses": ["Hello", "Hi", "Hi there,how can I help you?"]
@@ -30,6 +58,63 @@
     {"tag": "complaint",
     "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
     "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
-    }
+    },
+    {"tag": "academic support",
+     "patterns": ["tutoring services", "courses available"],
+     "responses": ["law,medicine ,engineering,art"]
+    },
+    {"tag":"free",
+        "patterns":["courses free","no fees","cost zero"],
+        "responses":["no the courses are not free","there is a fee for each and every course"]
+    },
+    {
+        "tag":"disability",
+        "patterns":["resources for students with disabilities","how disable studentss cope"],
+        "responses":["equal opportunities","apt student services","additional facilities"]
+    },
+    {
+        "tag":"finance",
+        "patterns":["number of students getting financial aid","percentage of students getting financial aid"],
+        "responses":["10%"]
+    },
+    {
+
+        "tag":"scholarship",
+        "patterns":["amount of scholarship"],
+        "responses":["depends on your entrance exam score"]
+    },
+    {
+        "tag name":"time",
+        "patterns":["when does aid start","timing of aid"],
+        "responses":["one month after the admission"]
+    },
+    {"tag": "friends",
+    "patterns": ["How to make friends?", "How did you meet friends?", "Is making friends difficult?"],
+    "responses": ["Be friendly and communicate", "In common classes, in hostels", "No, just be freindly"]
+   },
+   {"tag": "events",
+    "patterns": ["monthly?", "yearly?", "participate","type of events"],
+    "responses": ["Many, different clubs have different events", "Many, different clubs have different events", "Check your mail regularly and fill the forma as required","Technical and cultural"]
+   },
+   {"tag": "sports",
+    "patterns": ["Which", "Is there any cricket ground?", "Is there any basketball court?", "Is badminton court available?","college cricket team?","college basketball team?","college sports team?"],
+    "responses": ["Various sports facilities are available like Cricket, Badminton, Basketball, Volleyball, etc", "Yes", "Yes", "Yes","Approach the faculty","Approach the faculty","Approach the faculty"]
+   },
+   {"tag": "cultural",
+   "patterns": ["cultural fest", "cultural events?", "When","How to participate"],
+   "responses": ["Yes, once a year", "Yes, in the cultural fest", "In every Winter semesters","Check your mails regularly and do as required"]
+   },
+   {"tag": "technical",
+   "patterns": ["Itechnical fest", "technical events", "When", "How to participate"],
+   "responses": ["Yes, once a year", "Yes, in the technical fest", "In every Fall semesters","Check your mails regularly and do as required"]
+   },
+   {"tag": "clubs",
+   "patterns": ["How many", "Is is required to be a member of any club?", "What if I don't participate in clubs?", "How", "Is clubs important for academic purpose?","How many clubs can we participate in at a time?"],
+   "responses": ["Many clubs like Android club, Hack club, Dramatics club, etc", "Yes, ypu need to be a part of atleast one club","You need to participate","Check the social media handles of the clubs","Yes","As many as you want to"]
+   },
+   {"tag": "gym",
+   "patterns": ["How many", "equipments", "fee?","monthly fees"],
+   "responses": ["1 in every hostel", "Every equipment is there"," Yes, Rs 500 monthly","Rs 500"]
+   }
 ]
 }
