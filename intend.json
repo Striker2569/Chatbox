@@ -1,5 +1,37 @@
 
 {"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello", "Hay"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m Joana, your bot assistant", "I'm Joana, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me Joana.", "I'm Joana!", "Just call me as Joana"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "createaccount",
+    "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+    "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+    },
+    {"tag": "complaint",
+    "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
     {"tag": "interview",
      "patterns": ["admission interview", "entrance test", "appearing test", "entrance exam"],
      "responses": ["yes, admission interviews often are important.", "yes", "yes, they play a factor."]
@@ -80,7 +112,7 @@
      "patterns":["amount of scholarship"],
      "responses":["depends on your entrance exam score"]
     },
-    {"tag":"time",
+    {"tag name":"time",
      "patterns":["when does aid start","timing of aid"],
      "responses":["one month after the admission"]
     },
@@ -103,14 +135,6 @@
    {"tag": "technical",
     "patterns": ["Itechnical fest", "technical events", "When", "How to participate"],
     "responses": ["Yes, once a year", "Yes, in the technical fest", "In every Fall semesters","Check your mails regularly and do as required"]
-   },
-   {"tag": "clubs",
-    "patterns": ["How many", "Is is required to be a member of any club?", "What if I don't participate in clubs?", "How", "Is clubs important for academic purpose?","How many clubs can we participate in at a time?"],
-    "responses": ["Many clubs like Android club, Hack club, Dramatics club, etc", "Yes, ypu need to be a part of atleast one club","You need to participate","Check the social media handles of the clubs","Yes","As many as you want to"]
-   },
-   {"tag": "gym",
-    "patterns": ["How many", "equipments", "fee?","monthly fees"],
-    "responses": ["1 in every hostel", "Every equipment is there"," Yes, Rs 500 monthly","Rs 500"]
    }
 ]
 }

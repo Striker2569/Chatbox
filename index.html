@@ -75,6 +75,8 @@
         <link rel="stylesheet" href="OwlCarousel2-2.3.4\src\scss\owl.carousel.scss">
         <link rel="stylesheet" href="OwlCarousel2-2.3.4\src\scss\owl.theme.default.scss">
         <script src="OwlCarousel2-2.3.4\src\js\owl.carousel.js"></script>
+        <!-- <script src="{{url_for('css',filename='js/chatbox.js') }}"></script> -->
+  
 </head>
 
 <body>
@@ -91,9 +93,9 @@
             
             <div id="chatwindow"></div>
             <div id="usertextboxmessage">
-                <span>
-                    <input id="UserInputBox" type="text">
-                    <img src="icons/send.png" class="message">
+                <span>  
+                    <input id="UserInputBox" type="text" name="input" onblur="return inputvar();">
+                    <img src="icons/send.png" class="message" onclick="return inputvar();">0
                 </span>
             </div>
             <span id="closebutton">X</span>
@@ -843,7 +845,7 @@
             </div>
         </div>
     </div>
-    <script src="js/chatbox.js"></script>
+    <script src='js/chatbox.js'></script>
 </body>
 
 </html>

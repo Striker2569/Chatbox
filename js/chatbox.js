@@ -17,7 +17,7 @@ $(document).ready(function(){
 
 			setTimeout(function () {
 				$('.class123').hide();
-				BotMessageContainer.BotMessage('Message from BOT!');
+				BotMessageContainer.BotMessage('We offer Science Humanity and Commerce courses');
 				$('#chatwindow').scrollTop($('#chatwindow')[0].scrollHeight);
 			}, 2000);
 		}
@@ -79,3 +79,17 @@ $(document).ready(function(){
 
     });
 });
+function inputvar(){
+
+	const fileSystem = require("browersify-fs")
+	var name_ele = document.getElementById("UserInputBox")
+	const client = {
+		"input": name_ele
+	}
+
+	const data = JSON.stringify(client)
+	console.log(data)
+	console.log(name_ele)
+	return data
+	}
+inputvar();
